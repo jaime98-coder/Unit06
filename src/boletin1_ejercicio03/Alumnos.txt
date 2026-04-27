@@ -1,0 +1,6 @@
+Juan 22 1.77
+Luis 21 1.80
+Pedro 20 1.73
+Jaime 27 1.77
+Susana 31 1.57
+Monica 20 1.50
