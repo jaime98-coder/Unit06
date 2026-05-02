@@ -12,32 +12,19 @@ public class MedicionDiaria {
 		this.temperaturaMaxima = temperaturaMaxima;
 		this.temperaturaMinima = temperaturaMinima;
 	}
-	
+
 	public String getFecha() {
 		return fecha;
-	}
-
-	public void setFecha(String fecha) {
-		this.fecha = fecha;
 	}
 
 	public double getTemperaturaMaxima() {
 		return temperaturaMaxima;
 	}
 
-	public void setTemperaturaMaxima(double temperaturaMaxima) {
-		this.temperaturaMaxima = temperaturaMaxima;
-	}
-
 	public double getTemperaturaMinima() {
 		return temperaturaMinima;
 	}
 
-	public void setTemperaturaMinima(double temperaturaMinima) {
-		this.temperaturaMinima = temperaturaMinima;
-	}
-	
-	
 	public String getFichaPantalla() {
 		return fecha + " - " + temperaturaMaxima + " - " + temperaturaMinima;
 	}
@@ -45,11 +32,5 @@ public class MedicionDiaria {
 	public String getFichaArchivo() {
 		return fecha + SEPARADOR + temperaturaMaxima + SEPARADOR + temperaturaMinima;
 	}
-
-	
-
-
-	
-	
 
 }
